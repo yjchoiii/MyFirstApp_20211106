@@ -79,6 +79,13 @@
         android:layout_height="wrap_content"
         android:text="개인정보 제공에 동의합니다." />
 
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/apple_logo_2"/>
+
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

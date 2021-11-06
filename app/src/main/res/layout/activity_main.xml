@@ -26,7 +26,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="8글자로 입력"
+        android:hint="8글자이상으로 입력"
         android:inputType="textPassword" />
 
     <TextView
@@ -39,6 +39,12 @@
         android:layout_height="wrap_content"
         android:singleLine="true"
         android:hint="자유입력" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="확인" />
+
 
 
 
